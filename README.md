@@ -39,3 +39,6 @@ Panel econometrics using R:
 - Statistical diagnostics
 - Reproducible research structure
 - Data storytelling through academic reporting.
+## Run
+Open R in the project root and run:
+source("scripts/main_analysis.R")
