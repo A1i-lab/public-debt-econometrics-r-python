@@ -13,12 +13,20 @@ increase during the COVID-19 period.
 ### Model selection – Hausman test
 ![Hausman test](report/haussman_test.png)
 
+
 The Hausman test strongly rejects the random effects specification (p < 0.001),
-supporting the use of a fixed effects model for consistent estimation.
+indicating that unobserved country-specific effects are correlated with the regressors.
+As a result, the fixed effects model is preferred for inference.
+
+### Main Economic Insights
+- Public debt increases significantly during major macroeconomic shocks (2008 crisis, COVID-19).
+- Higher public expenditure and interest payments are associated with higher debt levels.
+- Economic growth tends to reduce public debt ratios in the long run.
 
 # OECD Public Debt — Panel Econometrics (R)
 
-This project is part of an academic research work analyzing the determinants of public debt across OECD countries using panel econometrics and macroeconomic indicators.
+This project is part of an academic research work analyzing the determinants of public debt across OECD countries
+using panel econometrics and macroeconomic indicators.
 
 ## Objective
 Identify the macroeconomic and demographic factors associated with high levels of public debt using panel data models.
@@ -37,7 +45,9 @@ Panel econometrics using R:
 - Fixed Effects / Random Effects models
 - Hausman test
 - Breusch–Pagan test (heteroskedasticity)
-- Durbin–Watson test (autocorrelation)
+- Panel serial correlation tests (Durbin-Watson /
+   Breusch-Godfrey type)
+
 - VIF (multicollinearity diagnostics)
 - Robust standard errors (White)
 
