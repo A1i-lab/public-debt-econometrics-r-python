@@ -38,4 +38,4 @@ Panel econometrics using R:
 - Data cleaning and restructuring (wide → long)
 - Statistical diagnostics
 - Reproducible research structure
-- Data storytelling through academic reporting
+- Data storytelling through academic reporting.
