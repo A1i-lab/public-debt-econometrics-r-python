@@ -4,14 +4,14 @@ Panel econometrics on OECD public debt (1990–2023) using R. Fixed/Random effec
 ## Key Results (Selected Outputs)
 
 ### Average public debt trend in OECD countries
-![Average public debt trend](debt_figure.png)
+![Average public debt trend](report/debt_figure.png)
 
 This figure highlights the long-term increase in average public debt across OECD countries.
 A clear structural break is observed after the 2008 financial crisis, followed by a sharp
 increase during the COVID-19 period.
 
 ### Model selection – Hausman test
-![Hausman test](haussman_test.png)
+![Hausman test](report/haussman_test.png)
 
 The Hausman test strongly rejects the random effects specification (p < 0.001),
 supporting the use of a fixed effects model for consistent estimation.
