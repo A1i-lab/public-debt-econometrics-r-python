@@ -2,7 +2,7 @@
 
 ## Accès
 
-Application en ligne : [TON_LIEN_HUGGING_FACE]
+Application en ligne : https://huggingface.co/spaces/A1i-lab/analyse-dette-ocde
 
 Aucune installation nécessaire. Fonctionne directement dans le navigateur.
 
