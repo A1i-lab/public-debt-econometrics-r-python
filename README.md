@@ -100,3 +100,11 @@ cd app_web
 pip install -r requirements.txt
 python app.py
 
+# Analyse économétrique de la dette publique des pays OCDE
+
+[![Application Web](https://img.shields.io/badge/App-Hugging%20Face-yellow)](https://huggingface.co/spaces/A1i-lab/analyse-dette-ocde)
+[![Python](https://img.shields.io/badge/Python-3.13-blue)](https://www.python.org/)
+[![R](https://img.shields.io/badge/R-4.3+-276DC3)](https://www.r-project.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+
