@@ -60,3 +60,43 @@ Panel econometrics using R:
 ## Run
 Open R in the project root and run:
 source("scripts/main_analysis.R")
+
+
+
+## Application web interactive
+
+En complément de l'analyse économétrique présentée dans le mémoire, une application web interactive a été développée pour permettre l'exploration visuelle des données et des projections.
+
+### Fonctionnalités
+
+- Visualisation de l'évolution historique de la dette publique par pays
+- Comparaison bilatérale entre pays
+- Projections 2025-2030 basées sur Random Forest
+- Classification automatique des pays par profil économique
+- Export des résultats au format Excel
+
+### Accès
+
+**Application déployée :** https://huggingface.co/spaces/A1i-lab/analyse-dette-ocde
+
+**Code source :** [app_web/](./app_web/)
+
+**Documentation technique :** [app_web/TECHNICAL_DOC.md](./app_web/TECHNICAL_DOC.md)
+
+**Guide utilisateur :** [app_web/USER_GUIDE.md](./app_web/USER_GUIDE.md)
+
+### Technologies utilisées
+
+- Python 3.13
+- Gradio pour l'interface web
+- Scikit-learn pour les modèles de machine learning
+- Plotly pour les visualisations interactives
+- Pandas pour le traitement des données
+
+### Installation locale
+
+```bash
+cd app_web
+pip install -r requirements.txt
+python app.py
+
