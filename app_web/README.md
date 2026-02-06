@@ -1,4 +1,4 @@
-# Application web d'analyse de la dette publique
+# Machine Learning: Application web d'analyse de la dette publique
 
 Interface interactive développée avec Gradio pour l'analyse et la projection de la dette publique des pays OCDE.
 
